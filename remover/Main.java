@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void removeOggy(ArrayList<String> names) {
-        List<String> result = new ArrayList<String>(); 
+        ArrayList<String> result = new ArrayList<String>(); 
         for (String name: names)         
             if (!name.startsWith("oggy"))            
                 result.add(name); 
