@@ -9,8 +9,9 @@ public class Main {
         for (String name: names)         
             if (!name.startsWith("oggy"))            
                 result.add(name); 
-
-        names=result;
+        
+        names.clear();
+        names.addAll(result);
         return;
     }
     public static boolean oggyIsRemoved(ArrayList<String> names) {
