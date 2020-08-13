@@ -6,5 +6,4 @@ This program intends to remove strings containing 'oggy' from a list of strings 
 
 ## Method
 
-The method first copies the values except oggy to a new Arraylist.
-Then previous arraylist is replaced with new ArrayList.
+The method first copies the values except oggy to a new Arraylist and previous arraylist is replaced with new ArrayList.
